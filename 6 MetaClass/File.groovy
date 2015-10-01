@@ -1,0 +1,1 @@
+println new File("/Users/ondrej/Documents/Vendavo/VPA-PA/vendavo/pom.xml").text

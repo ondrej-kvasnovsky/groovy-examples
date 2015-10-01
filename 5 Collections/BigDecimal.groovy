@@ -1,0 +1,5 @@
+println new BigDecimal("1.0").equals(new BigDecimal("1"))
+println new BigDecimal("1").equals(new BigDecimal("1"))
+println new BigDecimal("1").equals(1)
+println new BigDecimal("1").equals(1.0)
+println 1.0.equals(1)
