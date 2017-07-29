@@ -1,0 +1,12 @@
+import java.text.*;
+
+int count = 0
+int i = 591121 //820414
+for (x = 0; x < 10000; x ++ ) {
+    r = i + String.format("%04d", x)
+    if ((Long.valueOf(r) % 11) == 0) {
+         count ++
+    }
+}
+
+println count
